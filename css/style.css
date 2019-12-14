@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'Roboto','Montserrat','Open Sans';
+  src: url(https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav{
+  color: #fff;
+  font-size:14px;
+}
+
+header {
+  background-image: url(../images/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 90vh;
+  width: 100%;
+  filter:brightness(80%);
+}
+
+.region .region-header{
+  position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+.name .navbar-brand{
+  font-family: 'Montserrat',sans-serif;
+    font-size: 40px;
+    color: #fff;
+}
+
+main{
+  font-family:'open sans',sans-serif;
+  width:100%;
+  text-align: center;
+  background:whitesmoke;
+  font-size:18px;
+  padding: 20px 0;
+}
+
+main h2{
+    font-size: 35px;
+    font-family: 'Montserrat',sans-serif;
+    padding: 20px 0;
+}
+
+main h2 a{
+  text-decoration: none !;
+}
+
+.feed-icons{
+  display:none;
+}
+
+footer{
+    text-align: center;
+    width:100%;
+    padding:20px 0;
+    font-size:20px;
+    color:#000;
+    font-family:'roboto',sans-serif;
+}
+
+@media screen and (min-width: 768px){
+  body {
+    margin-top: 0px !important;
+}
+}
